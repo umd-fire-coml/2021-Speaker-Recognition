@@ -7,4 +7,4 @@ import os
 
 def test_fail_and_then_success():
     assert(not load_libre_data("train-clean-100"))
-#    assert(len(list(load_libre_data("LibriSpeech/train-clean-100/"))) == 28539)
+    assert(len(list(load_libre_data("LibriSpeech/train-clean-100/"))) == 28539)
