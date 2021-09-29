@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container: python
     steps:
-      - uses: actions/DataLoad
+      - uses: actions/checkout@v2
       - name: run_all_tests
         run: |
           python -m pytest
