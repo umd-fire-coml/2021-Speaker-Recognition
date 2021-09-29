@@ -1,4 +1,4 @@
-me: run_all_tests
+name: run_all_tests
 
 on: [push, pull_request, workflow_dispatch]
 
