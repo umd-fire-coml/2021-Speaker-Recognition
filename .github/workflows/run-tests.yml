@@ -1,12 +1,12 @@
-name: learn-github-actions
-on: [push]
+name: run_all_tests
+on: [push, pull_request, workflow_dispatch]
 jobs:
-    check-bats-version:
+    RunAllTests:
         runs-on: ubuntu-latest
+        container: python
         steps:
             - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
-                with:
-                    node-version: '14'
-            -run: npm install -g bats
-            -run: bats -v
+            - name: run_all_tests
+              run: |
+                pip install pytest
+                python -m pytest
