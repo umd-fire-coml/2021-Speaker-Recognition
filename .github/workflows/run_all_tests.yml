@@ -8,6 +8,7 @@ jobs:
     steps:      
       - uses: actions/checkout@v2      
       - name: run_all_tests        
-        run: |       
+        run: |     
+          pip install librosa  
           pip install pytest        
           python -m pytest
