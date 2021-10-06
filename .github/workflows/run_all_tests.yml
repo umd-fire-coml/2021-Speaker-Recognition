@@ -8,7 +8,6 @@ jobs:
     steps:      
       - uses: actions/checkout@v2      
       - name: run_all_tests        
-        run: |      
-          from data_visualization import get_first   
+        run: |       
           pip install pytest        
           python -m pytest
