@@ -17,7 +17,8 @@ from os import path
 
 class VisualTest(unittest.TestCase):
     def test_data_download(self):
-        self.assertEqual("SpencerIsAwesome", "SpencerIsAwesome")
+        #self.assertEqual("SpencerIsAwesome", "SpencerIsAwesome")
+        path.exists('src/download_script.py')
 
 
 if __name__ == '__main__':
