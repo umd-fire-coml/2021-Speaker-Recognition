@@ -1,6 +1,6 @@
 import unittest
 
-from data_visualization_actual import get_first
+from data_visualization import get_first
 
 
 class VisualTest(unittest.TestCase):
