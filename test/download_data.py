@@ -17,7 +17,7 @@ from os import path
 
 class VisualTest(unittest.TestCase):
     def test_data_download(self):
-        self.assertEquals("SpencerIsAwesome", "SpencerIsAwesome")
+        self.assertEqual("SpencerIsAwesome", "SpencerIsAwesome")
 
 
 if __name__ == '__main__':
