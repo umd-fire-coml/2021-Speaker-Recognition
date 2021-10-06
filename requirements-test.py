@@ -1,9 +1,10 @@
 import os.path
+import unittest
 from os import path
 
-def main():
-
-   print ("File exists:"+str(path.exists('requirements.txt')))
+class VisualTest(unittest.TestCase):
+   def test_data_download(self):
+      path.exists('requirements-test.py')
 
 if __name__== "__main__":
-   main()
+   unittest.main()
