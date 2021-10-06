@@ -10,5 +10,6 @@ jobs:
       - name: run_all_tests        
         run: |     
           pip install librosa
+          pip install SoundFile
           pip install pytest        
           python -m pytest
