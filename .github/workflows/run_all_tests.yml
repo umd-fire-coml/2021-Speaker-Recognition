@@ -1,16 +1,11 @@
 name: run_all_tests
-
 on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  RunAllTests:
-    runs-on: ubuntu-latest
-    container: python
-    steps:
-      - uses: actions/checkout@v2
-      - name: run_all_tests
-        run: |
-          wget https://www.openslr.org/resources/12/train-clean-100.tar.gz
-          tar xzf train-clean-100.tar.gz
-          pip install pytest
-          python -m pytest
+runs-on: ubuntu-latest    
+container: python    
+steps:      
+  - uses: actions/checkout@v2      
+  - name: run_all_tests        
+    run: |          
+      pip install -r requirements.txt          
+      pip install -r test-requirements.txt          
+      python -m pytest
