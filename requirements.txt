@@ -1,4 +1,3 @@
-name: speaker-recognition
 dependencies:
 	- tensorflow=2.3
 	- protobuf
