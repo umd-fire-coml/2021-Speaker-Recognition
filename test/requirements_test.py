@@ -2,8 +2,8 @@
 import sys
 
 def check():
-    checked = false
+    checked = False
     if "jupyterlab" in sys.modules:
-        checked = true
+        checked = True
         
-    assert(true)
+    assert(checked == True)
