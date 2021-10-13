@@ -18,5 +18,4 @@ import pytest
 # check()
 
 def check():
-    assert(True)
-
+    assert "test" == "test"
