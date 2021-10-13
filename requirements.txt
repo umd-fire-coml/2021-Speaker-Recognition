@@ -1,4 +1,3 @@
-tensorflow
 protobuf
 jupyterlab
 opencv
