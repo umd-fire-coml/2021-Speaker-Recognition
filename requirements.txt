@@ -1,6 +1,7 @@
+pip
 protobuf
 jupyterlab
-opencv
+opencv-python
 matplotlib
 requests
 pandas
