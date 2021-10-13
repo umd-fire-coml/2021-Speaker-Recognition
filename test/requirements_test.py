@@ -19,4 +19,4 @@ import pytest
 
 def check():
     assert(True)
-check()
+
