@@ -7,3 +7,5 @@ def check():
         checked = True
         
     assert(checked == True)
+
+check()
