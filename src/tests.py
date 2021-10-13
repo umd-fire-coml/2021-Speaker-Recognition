@@ -11,4 +11,4 @@ def check():
         checked = True
         print(checked)
         
-    assert(checked == True)
+    return checked
