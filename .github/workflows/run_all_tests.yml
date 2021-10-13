@@ -1,5 +1,6 @@
 name: run_all_tests
 on: [push, pull_request, workflow_dispatch]
+
 runs-on: ubuntu-latest    
 container: python    
 steps:      
@@ -9,3 +10,4 @@ steps:
       pip install -r requirements.txt          
       pip install -r test-requirements.txt          
       python -m pytest
+
