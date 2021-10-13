@@ -10,6 +10,7 @@ def check():
     
     if "jupyterlab" in flat_installed_packages:
         checked = True
+        print(checked)
         
     assert(checked == True)
 
