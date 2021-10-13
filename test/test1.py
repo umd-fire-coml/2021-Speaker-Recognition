@@ -1,5 +1,6 @@
 
 import pytest
+from src.tests import check
 # from pip._internal.utils.misc import get_installed_distributions 
 
 # def check():
@@ -18,4 +19,4 @@ import pytest
 # check()
 
 def check():
-    assert "test" == "test"
+    assert(check==True)
