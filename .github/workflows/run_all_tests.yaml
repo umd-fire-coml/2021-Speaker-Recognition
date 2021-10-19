@@ -12,6 +12,6 @@ jobs:
         run: |
           pip install -r requirements.txt
           pip install -r test-requirements.txt
-          python -m pytest test/test1.py
+          python -m pytest test\test1.py
           
 
