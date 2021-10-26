@@ -1,3 +1,4 @@
+pytest
 protobuf
 jupyterlab
 opencv-python
