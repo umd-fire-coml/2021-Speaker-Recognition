@@ -5,7 +5,7 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   RunAllTests:
     runs-on: ubuntu-latest
-    container: python
+    container: python:3.9.7
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
