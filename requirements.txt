@@ -1,4 +1,3 @@
-pip
 protobuf
 jupyterlab
 opencv-python
