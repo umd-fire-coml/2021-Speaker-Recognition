@@ -1,6 +1,6 @@
 import unittest
-from data_Generator import DataGenerator
-from data_Process import dataProcess
+from src/data_Generator import DataGenerator
+from src/data_Process import dataProcess
 import librosa
 import numpy as np
 
