@@ -4,6 +4,9 @@
 --- 
 The purpose of this project is to assess whether a given audio recording has a male or female speaker, which is decided through the recording's frequency. 
 
+### Video Demonstration
+---
+
 ### Directory Guide
 ---
 
