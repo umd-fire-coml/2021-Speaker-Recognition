@@ -4,7 +4,7 @@ from src.data_Process import dataProcess
 
 class MyTestCase(unittest.TestCase):
     def my_dataProcess(self):
-        filePath = "C:/Users/potte/PycharmProjects/pythonProject1/things/cv-valid-train.csv"
+        filePath = "data/cv-valid-train.csv"
         dataProcessor = dataProcess(filePath, ['text','up_votes','down_votes','age', 'accent', 'duration'], 5000, 20)
         return dataProcessor
 
