@@ -3,7 +3,7 @@ from src.data_Generator import DataGenerator
 from src.data_Process import dataProcess
 import audioread
 import scipy
-import scikit-learn
+import sklearn
 import joblib
 import decorator
 import six
