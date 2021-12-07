@@ -1,6 +1,15 @@
 import unittest
 from src.data_Generator import DataGenerator
 from src.data_Process import dataProcess
+import audioread
+import scipy
+import scikit-learn
+import joblib
+import decorator
+import six
+import resampy
+import numba
+import soundfile
 import librosa
 import numpy as np
 
