@@ -36,4 +36,4 @@ import tensorflow as tf
 
 ### Citations and References
 ---
-[1] Amidi , A., &amp; Amidi, S. (n.d.). A detailed example of how to use data generators with Keras. A detailed example of data generators with Keras. Retrieved December 7, 2021, from https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly. 
+[1] Amidi , A., &amp; Amidi, S. (n.d.). A detailed example of how to use data generators with Keras. A detailed example of data generators with Keras. Retrieved December 7, 2021, from [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly)
