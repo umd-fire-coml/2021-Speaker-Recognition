@@ -3,3 +3,5 @@ numpy
 tensorflow
 librosa >= 0.8.1
 ffmpeg
+soundfile >= 0.10.3.post1
+libsndfile1
