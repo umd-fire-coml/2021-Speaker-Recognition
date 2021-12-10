@@ -35,6 +35,12 @@ The model architecture is a deep feedforward neural network. This means that it 
 We used the [Common Voice dataset](https://www.kaggle.com/mozillaorg/common-voice) which is a dataset of speeches which is a collection of speech data that is gathered from various audio sources.
 In particular, we used the cv valid train dataset which contains 195776 audio files. The cv-valid-train.csv contains a table that corresponds to the audio files in the cv valid train dataset, which includes the filename and gender. As for the gender, the files have been labeled as "male", "female", and "other". We cleaned the data by eliminating the "other" files, so that we would be able to have a simpler dataset to work with. 
 
+![image](https://user-images.githubusercontent.com/89940944/145652329-a4f449e4-4283-41bc-9585-21a763f56487.png)
+
+![image](https://user-images.githubusercontent.com/89940944/145652371-20e6f7a9-0513-405e-bff3-083ec0f110e7.png)
+
+The model is able to discern which audio is male or female using the data shown here.
+
 ### Setting Up Your Environment
 ---
 To download the data, you will need to have this repository in the "Colab/BigProjekt/" folder of your Google Drive. 
