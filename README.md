@@ -11,7 +11,7 @@ The model architecture is a deep feedforward neural network. This means that it 
 
 ### Video Demonstration
 ---
-[![Speaker Recognition](http://img.youtube.com/vi/tAmuJ8CYcvA/0.jpg)]("http://www.youtube.com/watch?v=tAmuJ8CYcvA "2021 Speaker Recognition")
+[![Speaker Recognition](http://img.youtube.com/vi/tAmuJ8CYcvA/0.jpg)](http://www.youtube.com/watch?v=tAmuJ8CYcvA "2021 Speaker Recognition)
 ### Directory Guide
 ---
 `requirements.txt` - has the import statements needed for the project
