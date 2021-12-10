@@ -1,7 +1,7 @@
 import unittest
 from src.data_Generator import DataGenerator
 from src.data_Process import dataProcess
-import librosa
+#import librosa
 import numpy as np
 
 class MyTestCase(unittest.TestCase):
@@ -18,12 +18,12 @@ class MyTestCase(unittest.TestCase):
         data_gen = dataGen.my_data_generator()
         assert len(data_gen.__getitem__(1)[0]) == data_gen.batch_size
 
-    def test_generate_x(dataGen):
+    """def test_generate_x(dataGen):
         data_gen = dataGen.my_data_generator()
         gen_mfcc = data_gen.generate_x(data_gen.dataset.iloc[0][0])
         x, sr = librosa.load(data_gen.dataset.iloc[0][0])
         exp_mfccs = np.mean(librosa.feature.mfcc(y=x, sr=sr, n_mfcc=40).T, axis=0)
-        assert gen_mfcc == exp_mfccs
+        assert gen_mfcc == exp_mfccs"""
 
     def test_generate_y(dataGen):
         data_gen = dataGen.my_data_generator()
