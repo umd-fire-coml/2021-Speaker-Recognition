@@ -4,6 +4,9 @@
 --- 
 The purpose of this project is to assess whether a given audio recording has a male or female speaker, which is decided through the recording's frequency. 
 
+### Model Architecture
+---
+
 ### Video Demonstration
 ---
 
@@ -17,7 +20,8 @@ In particular, we used the cv valid train dataset which contains 195776 audio fi
 
 ### Setting Up Your Environment
 ---
-Import the following:
+To download the data, you will need to have this repository in the "Colab/BigProjekt/" folder of your Google Drive. 
+We used pandas, numpy, and librosa. The import statements used can be seen below:
 ```
 import pandas as pd
 import numpy as np
@@ -31,6 +35,14 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import Sequence
 import tensorflow as tf
 ```
+### Downloading the Data
+---
+We downloaded the cv-valid-train folder and the cv-valid-train.csv file into the "Colab/BigProjekt/" folder of your Google Drive and use the following lines to unzip the file.
+
+```
+!unzip '/content/drive/MyDrive/Colab/data zips/cv-valid-train.csv.zip' -d '/content/drive/MyDrive/Colab/BigProjekt/'
+!unzip '/content/drive/MyDrive/Colab/data zips/cv-valid-train.zip' -d '/content/'
+```
 ### Training the Model
 ---
 
@@ -39,4 +51,4 @@ import tensorflow as tf
 
 ### Citations and References
 ---
-[1] Amidi , A., &amp; Amidi, S. (n.d.). A detailed example of how to use data generators with Keras. A detailed example of data generators with Keras. Retrieved December 7, 2021, from [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly)
+[1] A. Amidi and S. Amidi, “A detailed example of how to use data generators with Keras,” A detailed example of data generators with Keras. [Online]. Available: [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly). [Accessed: 07-Dec-2021]. 
