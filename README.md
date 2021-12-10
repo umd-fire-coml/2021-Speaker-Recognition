@@ -2,7 +2,8 @@
 
 ### Product Description
 --- 
-The purpose of this project is to assess whether a given audio recording has a male or female speaker, which is decided through the recording's frequency. 
+The purpose of this project is to assess whether a given audio recording has a male or female speaker, which is decided through the recording's frequency. The application of this model can be used to decide if a user is male or female, this could enable call centers to know the gender of the speaker and with that information better sell their products. [This google colab notebook](https://colab.research.google.com/drive/1I_9aSYQpuDgT8flqihTSkah4qcZD37Ou?usp=sharing) contains all the code to run through the project.
+
 
 ### Model Architecture
 ---
