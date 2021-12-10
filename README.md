@@ -46,9 +46,11 @@ We downloaded the cv-valid-train folder and the cv-valid-train.csv file into the
 ```
 ### Training the Model
 ---
+To trian the model the free GPU on google colab was utilized. The model callbacks that were defined and used were model checkpoints to save weights after each epoch and early stopping. The amount of epochs set to train or were one hundred with a batch size of 64. Data generators were used and passed into model fit for the data and labels. Training and validation data generators were used when fitting the model. In the google colab smaller data generators are also made if the computer being utilized is slow with training. This will allow you to train faster with a cut to the accuracy. If high accuracy is wanted, I would recommend training until timeout on google colab and then loading the weights and training again when the timout occurs.
 
 ### Testing the Model
 ---
+Testing the model utilizes loops that iterate through batches, generated from the test data generator, and checks if the expected label matches the guess. This grabs the actual labels and uses predict to grab the result from the model. If the result is closer to zero then the guess is a female and if the result is closer to one then the guess is a female. In the loops the amount of correct guesses is tallied and is divided by the total number of guesses to return the accuracy.
 
 ### Citations and References
 ---
