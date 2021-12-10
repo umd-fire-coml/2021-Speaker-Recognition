@@ -54,7 +54,7 @@ import tensorflow as tf
 ```
 ### Downloading the Data
 ---
-We downloaded the cv-valid-train folder and the cv-valid-train.csv file into the "Colab/BigProjekt/" folder of your Google Drive and use the following lines to unzip the file.
+Download the cv-valid-train folder and the cv-valid-train.csv file into the folder of your Google Drive or environment and use the following lines to unzip the file by replacing with your file paths.
 
 ```
 !unzip '/content/drive/MyDrive/Colab/data zips/cv-valid-train.csv.zip' -d '/content/drive/MyDrive/Colab/BigProjekt/'
@@ -71,3 +71,4 @@ Testing the model utilizes loops that iterate through batches, generated from th
 ### Citations and References
 ---
 [1] A. Amidi and S. Amidi, “A detailed example of how to use data generators with Keras,” A detailed example of data generators with Keras. [Online]. Available: [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly) [Accessed: 07-Dec-2021]. 
+[2] R. Bagheri, “An introduction to Deep Feedforward Neural Networks,” Medium, 28-Aug-2020. [Online]. Available: [https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd](https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd). [Accessed: 10-Dec-2021]. 
