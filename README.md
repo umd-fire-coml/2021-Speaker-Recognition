@@ -11,7 +11,7 @@ The model architecture is a deep feedforward neural network. This means that it 
 
 ### Video Demonstration
 ---
-
+[https://youtu.be/tAmuJ8CYcvA](https://youtu.be/tAmuJ8CYcvA)
 ### Directory Guide
 ---
 `requirements.txt` - has the import statements needed for the project
