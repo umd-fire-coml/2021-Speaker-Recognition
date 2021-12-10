@@ -6,6 +6,7 @@ The purpose of this project is to assess whether a given audio recording has a m
 
 ### Model Architecture
 ---
+The model architecture is a deep feedforward neural network. This means that it takes inputs and assigns weights, these are summed to create bias. With the inputs established the activation functions used to create the output of the neurons were relu functions. Although, the last was a sigmoid function to bring the value between one and zero. There are 6 dense layers in our deep feedforward neural network and they are all dense layers with some dropout. The loss function that is utilized is binary_crossentropy as a binary classification is occurring.
 
 ### Video Demonstration
 ---
