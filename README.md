@@ -15,19 +15,19 @@ The model architecture is a deep feedforward neural network. This means that it 
 ### Directory Guide
 ---
 `requirements.txt` - has the import statements needed for the project
-##### data
-- `cv-valid-train.csv` - stores the file paths and the labels
-##### src
+#### data
+- `cv-valid-train.csv` - the file path labels are stored
+#### src
 - `build_model.py` - builds the deep feedforward neural network model to distinguish between male and female voices
 - `data_Generator.py` - generates the input of the model to be used for training
 - `data_Process.py` - cleans the data
-- `model_checker.py` - checks if the data folder has the correct labels 
+- `model_checker.py` - tests the model on test data
 - `model_training.py` - trains the model using the training set and validates using validation set
-##### test 
+#### test 
 - `build_model_test.py` - checks model has been properly built
 - `data_generator_test.py` - checks the generated data
-- `data_process_test.py` - checks labels of the files
-##### weights
+- `data_process_test.py` - ensures the methods within data_Process.py are functioning as expected
+#### weights
 - contains the weights
 
 ### Dataset
