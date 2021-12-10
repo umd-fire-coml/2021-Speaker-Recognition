@@ -13,7 +13,7 @@ The purpose of this project is to assess whether a given audio recording has a m
 ### Dataset
 ---
 We used the [Common Voice dataset](https://www.kaggle.com/mozillaorg/common-voice) which is a dataset of speeches which is a collection of speech data that is gathered from various audio sources.
-In particular, we used the cv-valid-train.csv and the cv-valid-train datasets. 
+In particular, we used the cv valid train dataset which contains 195776 audio files. The cv-valid-train.csv contains a table that corresponds to the audio files in the cv valid train dataset, which includes the filename and gender. As for the gender, the files have been labeled as "male", "female", and "other". We cleaned the data by eliminating the "other" files, so that we would be able to have a simpler dataset to work with. 
 
 ### Setting Up Your Environment
 ---
