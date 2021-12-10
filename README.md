@@ -11,7 +11,7 @@ The model architecture is a deep feedforward neural network. This means that it 
 
 ### Video Demonstration
 ---
-[https://youtu.be/tAmuJ8CYcvA](https://youtu.be/tAmuJ8CYcvA)
+[![Speaker Recognition]http://img.youtube.com/vi/tAmuJ8CYcvA/0.jpg)](http://www.youtube.com/watch?v=tAmuJ8CYcvA "2021 Speaker Recognition")
 ### Directory Guide
 ---
 `requirements.txt` - has the import statements needed for the project
@@ -71,4 +71,4 @@ Testing the model utilizes loops that iterate through batches, generated from th
 ### Citations and References
 ---
 [1] A. Amidi and S. Amidi, “A detailed example of how to use data generators with Keras,” A detailed example of data generators with Keras. [Online]. Available: [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly) [Accessed: 07-Dec-2021]. 
-[2] R. Bagheri, “An introduction to Deep Feedforward Neural Networks,” Medium, 28-Aug-2020. [Online]. Available: [https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd](https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd). [Accessed: 10-Dec-2021]. 
+[2] R. Bagheri, “An introduction to Deep Feedforward Neural Networks,” Medium, 28-Aug-2020. [Online]. Available: [https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd](https://towardsdatascience.com/an-introduction-to-deep-feedforward-neural-networks-1af281e306cd). [Accessed: 10-Dec-2021].
